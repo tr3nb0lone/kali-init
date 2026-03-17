@@ -1,0 +1,27 @@
+# my commonly used bash-aliases are here
+# assumes that there are some specific directories are present!
+
+alias root='sudo su'
+alias installz='nix profile add nixpkgs#$1'
+alias serve='tree /opt/airdrop/ && cd /opt/airdrop && sudo python3 -m http.server 80'
+alias c='clear'
+alias x='exit'
+alias ssp='searchsploit $1'
+alias blue='sudo systemctl start bluetooth'
+alias uz='unzip $1'
+alias listen='nc -lnvp '
+alias ipa='ip a s | grep tun0'
+alias hosts='sudo vim /etc/hosts'
+alias venv='python3 -m venv . && source bin/activate'
+alias clone='git clone'
+
+# Toolkit:
+alias msf='msfconsole -q'
+alias gobusterz='gobuster dir -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt -t 60 -q  -u $1'
+alias v='nvim'
+alias vi='nvim'
+alias t='tmux'
+alias a='arsenal'
+alias z='zoxide'
+
+## more to come
