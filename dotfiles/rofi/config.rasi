@@ -11,4 +11,4 @@ configuration {
   }
 }
 
-@theme "/home/tr3n/configuration.nix/config/rofi/purlpe.rasi"
+@theme "/home/kali/.config/rofi/purlpe.rasi"
